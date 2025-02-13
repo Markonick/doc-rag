@@ -56,18 +56,11 @@ make streamlit
 
 3. Open your browser and navigate to `http://localhost:8501`
    
-   
    ![alt text](images/st.png)
-
-
-
-
-
 
 
 4. To inspect your local qdrant ector store, go to `http://localhost:6333/dashboard#/collections`
    
-
     ![alt text](images/qdrant.png)
 
 
