@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "doc-rag"
+version = "0.1.0"
+description = "Document RAG system using LlamaIndex"
+authors = ["Nicolas Markos <nicolas.markos@bytewilds.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+llama-index = "^0.12.17"
+python-dotenv = "^1.0.1"
+qdrant-client = "^1.13.2"
+torch = "^2.6.0"
+transformers = "^4.48.3"
+llama-index-embeddings-huggingface = "^0.5.1"
+llama-index-llms-ollama = "^0.5.2"
+llama-index-vector-stores-qdrant = "^0.4.3"
+nest-asyncio = "^1.6.0"
+streamlit = "^1.32.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
